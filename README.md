@@ -14,6 +14,8 @@ When `negative_values = False`, I implemented the A* algorithm. A* uses a heuris
 
 When `negative_values = True`, A* and Dijkstra are not applicable. I implemented SPFA, an optimized version of Bellman-Ford that uses a queue to process only nodes whose distance has been updated.
 
+The SPFA algorithm implementation was adapted from online resources.
+
 ## Dataset and Results
 
 For each configuration, a statistical sampling strategy was adopted: 5 random (start, end) pairs were selected.
